@@ -13,16 +13,23 @@ export default function Layout({ children, home }) {
       <Nav />
       <div className="container mx-auto p-4 text-center">
         {home ? (
-          <>{/* This layout is for the home page */}</>
+          <>
+            {/* This layout is for the home page */}
+          </>
         ) : (
-          <>{/* This is a top layout for pages other than home */}</>
+          <>
+            {/* This is a top layout for pages other than home */}
+          </>
         )}
         {/* This is a bottom layout for pages other than home */}
-        <main>{children}</main>{' '}
-        {/* Content from other pages will be render here */}
-        {!home && <div></div>}
+        <main>{children}</main>
+        {!home && (
+          <div>
+            {/* Content from other pages will be render here */}
+          </div>
+        )}
       </div>
-      {/* Everything after hwere will be at the bottom ALL pages */}
+      {/* Everything after here will be at the bottom ALL pages */}
       <Footer />
     </div>
   );
