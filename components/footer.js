@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="bg-blueGray-900">
           <div className="container flex flex-col flex-wrap px-5 py-6 lg:px-20 sm:flex-row">
             <div className="flex flex-wrap items-center justify-center text-base ">
-              <p className="mr-5 text-sm text-center">© {siteTitle} — 2020</p>
+              <p className="mr-5 text-sm text-center">© {siteTitle} — 2021</p>
               <a
                 href="#"
                 className="justify-center mr-5 text-sm text-center text-blueGray-200 hover:text-blue-700">
@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-end">
               <p className="mr-5 text-sm text-center">
-                Running Remote Since 2020
+                Running Remote Since 2021
               </p>
             </span>
           </div>
