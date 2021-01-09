@@ -1,7 +1,11 @@
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 
-const links = [{ href: 'https://google.com', label: 'About' }];
+const links = [
+  { href: '/registration', label: 'Registration' },
+  { href: '/about', label: 'About' },
+];
+
 
 export default function Nav() {
   return (

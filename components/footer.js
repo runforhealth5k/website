@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-end">
               <p className="mr-5 text-sm text-center">
-                Working Remote Since 2020
+                Running Remote Since 2020
               </p>
             </span>
           </div>

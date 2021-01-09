@@ -24,9 +24,11 @@ export default function Layout({ children, home }) {
         {/* This is a bottom layout for pages other than home */}
         <main>{children}</main>
         {!home && (
-          <div>
-            {/* Content from other pages will be render here */}
-          </div>
+          <div className="pt-8 text-left">
+          <Link href="/">
+            <a>← Back to home</a>
+          </Link>
+        </div>
         )}
       </div>
       {/* Everything after here will be at the bottom ALL pages */}
