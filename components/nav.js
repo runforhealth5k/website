@@ -2,7 +2,8 @@ import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 
 const links = [
-  { href: '/registration', label: 'Registration' },
+  { href: '/', label: 'Home'},
+  { href: '/registration', label: 'Register' },
   { href: '/about', label: 'About' },
 ];
 
