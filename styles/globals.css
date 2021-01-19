@@ -15,8 +15,6 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
-
-
 h1 {
     @apply text-4xl;
   }
