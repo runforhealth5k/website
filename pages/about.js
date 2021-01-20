@@ -10,10 +10,10 @@ export default function About() {
         <title> About - {siteTitle}</title>
         <br />
       </Head>
-      <div className="shadow p-4 bg-white">
-        <div className="text-center">
+      <div className="shadow p-4 bg-white py-8">
+        <div className="text-center px-40">
           <h1 className="mb-2 text-gray-700">About</h1>
-          <p className="text-grey-600 text-md">
+          <p className="text-grey-600 text-md px-8">
             <b>
               <u>Run for Health:</u>
             </b>
@@ -28,6 +28,7 @@ export default function About() {
             associations related to its practice, and the countless individuals
             who benefit from its mission.
             <br />
+            <br />
             <b>
               <u>Shalom’s Mission:</u>
             </b>
@@ -39,6 +40,7 @@ export default function About() {
             of all sexual orientations, races, genders, nationalities, ages,
             economic standings, marital status, religions or no religions,
             mental and or physical abilities, and family configurations.
+            <br />
             <br />
             <b>
               <u>The Vision</u>
@@ -81,6 +83,7 @@ export default function About() {
           </a>
           <br />
 
+          <br />
           <div className="flex justify-center">
             <Iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.996579869783!2d-121.83877518462455!3d39.73972767944955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808327ec3aa1a78f%3A0xcc8622eb4999192f!2sShalom%20Free%20Clinic!5e0!3m2!1sen!2sus!4v1611117285743!5m2!1sen!2sus"
