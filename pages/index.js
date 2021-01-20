@@ -28,12 +28,12 @@ export default function Home() {
                   <span className="block text-indigo-600 xl:inline">virtual world!</span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  *Dominus erectus ejaculatus.
+                  [insert fancy latin].
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
                     <a href="/registration" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
-                      Register NOW!
+                      Registration
                     </a>
                   </div>
 
