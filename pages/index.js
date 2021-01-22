@@ -60,7 +60,7 @@ export default function Home() {
       <section>
         <br />
         <br />
-        <h2 className="text-center uppercase text-black underline text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+        <h2 className="text-center uppercase text-black underline text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
           How it works:
         </h2>
         <br />
@@ -85,7 +85,7 @@ export default function Home() {
             register for Run for Health.
           </li>
 
-          <li classNmae="leading-loose">
+          <li className="leading-loose">
             Keep an eye out for announcements and updates via email (this is how
             you’ll know when your race bib and commemorative mask will be coming
             in).
