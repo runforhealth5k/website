@@ -63,7 +63,7 @@ export default function About() {
             see our{' '}
             <a
               href="https://shalomfreeclinic.org/volunteer/"
-              className="underline text-blue-500 hover:text-blue-400 font-bold">
+              className="text-blue-500 hover:text-blue-400 font-bold">
               volunteer page{' '}
             </a>
             or consider making a donation.
@@ -78,7 +78,7 @@ export default function About() {
             className="fa fa-facebook"></a>
           <a
             href="https://www.facebook.com/shalomfreeclinic/"
-            className="underline r-4 text-blue-500 hover:text-blue-400">
+            className="r-4 text-blue-500 hover:text-blue-400">
             <b> Connect with us on Facebook!</b>
           </a>
           <br />
