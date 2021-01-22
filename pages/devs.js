@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 const dev = [
   {
-    name: 'Mark Garcia',
-    github: 'https://github.com/runforhealth5k/',
-    website: '#',
+    name: 'Marco Garcia',
+    github: 'https://github.com/magarcia0/',
+    website: 'https://marcoagarcia.com',
   },
   {
     name: 'Kyle Kirk',
