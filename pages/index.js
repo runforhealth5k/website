@@ -60,8 +60,21 @@ export default function Home() {
       </div>
 
       <section>
-        <h2>How it works:</h2>
-        <p>lorem Ipsum </p>
+        <h2 className="text-justify uppercase text-purple-900 underline">How it works:</h2><br />
+        <ol className="list-decimal list-inside text-justify text-purple-900">
+          <li>Register through Active.com by clicking the ‘register’ button above</li>
+          <li>Check your inbox for a verification email confirming that you were
+          successfully registered</li>
+          <li>Download ‘Strava,’ an app that allows your
+          phone to track the time and speed of your run</li>
+          <li>Create an account using the same name and email that you used to register for Run for Health</li>
+          <li>Keep an eye out for announcements and updates via email (this is how
+          you’ll know when your race bib and commemorative mask will be coming
+          in.)</li>
+          <li>Run the race (05/29/21) anytime from dawn til dusk</li>
+          <li>Submit your results from Strava on the day of the race to:
+          <a href= "mailto:runforhealth5k@gmail.com" className="text-black hover:text-purple-700"> RunForHealth5k@gmail.com</a></li>
+        </ol>
       </section>
     </Layout>
   );
