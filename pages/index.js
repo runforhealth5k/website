@@ -1,7 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
-import Nav from '../components/nav';
 import Layout, { siteTitle } from '../components/layout';
 
 export default function Home() {
@@ -35,12 +32,13 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  [insert fancy latin].
+                  Clicking the button bellow will take you to a safe 3rd party
+                  website.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
                     <a
-                      href="/registration"
+                      href="https://endurancecui.active.com/event-reg/select-race?e=73465434"
                       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
                       Registration
                     </a>
@@ -60,20 +58,42 @@ export default function Home() {
       </div>
 
       <section>
-        <h2 className="text-justify uppercase text-purple-900 underline">How it works:</h2><br />
-        <ol className="list-decimal list-inside text-justify text-purple-900">
-          <li>Register through Active.com by clicking the ‘register’ button above</li>
-          <li>Check your inbox for a verification email confirming that you were
-          successfully registered</li>
-          <li>Download ‘Strava,’ an app that allows your
-          phone to track the time and speed of your run</li>
-          <li>Create an account using the same name and email that you used to register for Run for Health</li>
-          <li>Keep an eye out for announcements and updates via email (this is how
-          you’ll know when your race bib and commemorative mask will be coming
-          in.)</li>
+        <h2 className="text-justify uppercase text-purple-900 underline">
+          How it works:
+        </h2>
+        <br />
+        <ol className="list-decimal list-inside text-justify text-lg text-purple-900">
+          <li>
+            Register through Active.com by clicking the ‘Registration’ button
+            above
+          </li>
+          <li>
+            Check your inbox for a verification email confirming that you were
+            successfully registered
+          </li>
+          <li>
+            Download ‘Strava,’ an app that allows your phone to track the time
+            and speed of your run
+          </li>
+          <li>
+            Create an account using the same name and email that you used to
+            register for Run for Health
+          </li>
+          <li>
+            Keep an eye out for announcements and updates via email (this is how
+            you’ll know when your race bib and commemorative mask will be coming
+            in.)
+          </li>
           <li>Run the race (05/29/21) anytime from dawn til dusk</li>
-          <li>Submit your results from Strava on the day of the race to:
-          <a href= "mailto:runforhealth5k@gmail.com" className="text-black hover:text-purple-700"> RunForHealth5k@gmail.com</a></li>
+          <li>
+            Submit your results from Strava on the day of the race to:
+            <a
+              href="mailto:runforhealth5k@gmail.com"
+              className="text-black hover:text-purple-700">
+              {' '}
+              RunForHealth5k@gmail.com
+            </a>
+          </li>
         </ol>
       </section>
     </Layout>

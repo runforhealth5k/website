@@ -11,9 +11,14 @@ export default function About() {
         <br />
       </Head>
       <div className="shadow p-4 bg-white py-8">
-        <div className="text-center px-40">
+        <div className="text-center lg:px-40">
+          <img
+            className="h-56 w-full sm:h-72 md:h-96 lg:w-full lg:h-full"
+            src="/images/slogan.png"
+            alt=""
+          />
           <h1 className="mb-2 text-gray-700">About</h1>
-          <p className="text-grey-600 text-md px-8">
+          <p className="text-grey-600 text-lg px-8">
             <b>
               <u>Run for Health:</u>
             </b>
@@ -69,10 +74,7 @@ export default function About() {
             or consider making a donation.
           </p>
         </div>
-        <div className="text-center">
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+        <div className="text-center text-lg">
           <a
             href="https://www.facebook.com/shalomfreeclinic/"
             className="fa fa-facebook"></a>
