@@ -69,32 +69,27 @@ export default function Home() {
             Register through Active.com by clicking the ‘Registration’ button
             above.
           </li>
-
           <li className="leading-loose">
             Check your inbox for a verification email confirming that you were
             successfully registered.
           </li>
-
           <li className="leading-loose">
             Download ‘Strava,’ an app that allows your phone to track the time
             and speed of your run.
           </li>
-
           <li className="leading-loose">
             Create an account using the same name and email that you used to
             register for Run for Health.
           </li>
-
           <li className="leading-loose">
             Keep an eye out for announcements and updates via email (this is how
             you’ll know when your race bib and commemorative mask will be coming
             in).
           </li>
-
           <li className="leading-loose">
-            Run the race <span className="font-bold">(05/29/21)</span> anytime from dawn til dusk.
+            Run the race <span className="font-bold">(05/29/21)</span> anytime
+            from dawn til dusk.
           </li>
-
           <li className="leading-loose">
             Submit your results from Strava on the day of the race to:
             <a
@@ -105,6 +100,21 @@ export default function Home() {
             </a>
           </li>
         </ol>
+      </section>
+      <br />
+      <br />
+      <h3 className="text-indigo-600 text-center tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-3xl">
+        Thanks to our sponsors!
+      </h3>
+      <section className="p-10 flex md:flex-row items-center justify-around bg-gray-100 flex-wrap sm:flex-col">
+        <div className="h-52 w-52 relative cursor-pointer mb-5">
+          <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
+          <div className="absolute inset-0 transform hover:scale-75 transition duration-300">
+            <a href="https://www.instagram.com/thenitrobike/?hl=en">
+              <img src="images/Nitrobike.png" alt="Nitro Bike Logo" />
+            </a>
+          </div>
+        </div>
       </section>
     </Layout>
   );
