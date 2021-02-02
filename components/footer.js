@@ -7,7 +7,8 @@ export default function Footer() {
         <div className="bg-blueGray-900">
           <div className="container flex flex-col flex-wrap px-5 py-6 lg:px-20 sm:flex-row">
             <div className="flex flex-wrap items-center justify-center text-base ">
-              <p className="mr-5 text-sm text-center">© {siteTitle} — 2021</p>
+              <p className="mr-5 text-sm text-center">© {siteTitle} - 2021</p>
+              <a href="mailto:runforhealth5k@gmail.com" className="mr-5 text-sm text-center hover:underline">Contact Us</a>
             </div>
             <span className=" mt-2 sm:ml-auto sm:mt-0 sm:justify-end">
               <p className="mr-3 text-sm text-center">

@@ -12,7 +12,7 @@ export default function Nav() {
       <ul className="flex items-center justify-between p-1 list-none">
         <li>
           <Link href="/">
-            <a className="pl-2 md:pl-8 text-indigo-600 no-underline dark:text-gray-400 md:text-2xl text-xl font-bold hover:text-blue-400 dark:hover:text-gray-300">
+            <a className="pl-2 md:pl-8 text-indigo-600 no-underline dark:text-gray-400 md:text-3xl text-xl font-bold hover:text-blue-400 dark:hover:text-gray-300">
               {siteTitle}
             </a>
           </Link>
