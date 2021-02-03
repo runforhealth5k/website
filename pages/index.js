@@ -56,15 +56,13 @@ export default function Home() {
           />
         </div>
       </div>
-
-      <section>
-        <br />
+      <div className="space-y-24">
+      <section className="space-y-14">
         <br />
         <h2 className="text-center uppercase text-black underline text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
           How it works:
         </h2>
-        <br />
-        <ol className="list-decimal list-inside text-center text-lg text-gray-600 md:text-xl">
+        <ol className=" space-y-3 list-decimal list-inside text-center text-lg text-gray-600 md:text-xl">
           <li className="leading-loose">
             Register through Active.com by clicking the ‘Registration’ button
             above.
@@ -94,7 +92,7 @@ export default function Home() {
             Submit your results from Strava on the day of the race to:
             <a
               href="mailto:runforhealth5k@gmail.com"
-              className="text-black hover:text-indigo-600">
+              className="text-black underline hover:text-indigo-600">
               {' '}
               RunForHealth5k@gmail.com
             </a>
@@ -106,7 +104,8 @@ export default function Home() {
       <h3 className="text-indigo-600 text-center tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-3xl">
         Thanks to our sponsors!
       </h3>
-      <section className="p-10 flex md:flex-row items-center justify-around bg-gray-100 flex-wrap sm:flex-col">
+      </div>
+      <section className="mt-6 p-10 flex md:flex-row items-center justify-around bg-gray-100 flex-wrap sm:flex-col">
         <div className="h-52 w-52 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform hover:scale-75 transition duration-300">
