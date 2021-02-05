@@ -32,7 +32,7 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Clicking the registration button below will take you to a safe
+                  *Clicking the registration button below will take you to a safe
                   3rd party website.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -63,32 +63,32 @@ export default function Home() {
           How it works:
         </h2>
         <ol className=" space-y-3 list-decimal list-inside text-center text-lg text-gray-600 md:text-xl">
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Register through Active.com by clicking the ‘Registration’ button
             above.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Check your inbox for a verification email confirming that you were
             successfully registered.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Download ‘Strava,’ an app that allows your phone to track the time
             and speed of your run.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Create an account using the same name and email that you used to
             register for Run for Health.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Keep an eye out for announcements and updates via email (this is how
             you’ll know when your race bib and commemorative mask will be coming
             in).
           </li>
-          <li className="leading-loose">
-            Run the race <span className="font-bold">(05/29/21)</span> anytime
+          <li className="leading-loose font-bold">
+            Run the race <span className="font-extrabold">(05/29/21)</span> anytime
             from dawn til dusk.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Submit your results from Strava on the day of the race to:
             <a
               href="mailto:runforhealth5k@gmail.com"
