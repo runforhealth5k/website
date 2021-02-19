@@ -59,11 +59,13 @@ export default function Home() {
       <div className="space-y-24">
       <section className="space-y-14">
         <br />
-        <h2 className="text-center uppercase text-black underline text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
+        <div className="flex items-center justify-center h-screen">
+        <div className="bg-gray-100 rounded-lg border shadow-lg p-10">
+         <h2 className="mb-8 text-center uppercase text-black underline text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
           How it works:
         </h2>
-        <ol className=" space-y-3 list-decimal list-inside text-center text-lg text-gray-600 md:text-xl">
-          <li className="leading-loose font-bold">
+        <ol className="space-y-3 list-decimal list-inside text-center text-lg text-gray-600 md:text-xl">
+          <li className=" leading-loose font-bold">
             Register through Active.com by clicking the ‘Registration’ button
             above.
           </li>
@@ -98,6 +100,8 @@ export default function Home() {
             </a>
           </li>
         </ol>
+        </div>
+        </div>
       </section>
       <br />
       <br />
@@ -105,7 +109,7 @@ export default function Home() {
         Thanks to our sponsors!
       </h3>
       </div>
-      <section className="mt-6 p-10 flex md:flex-row items-center justify-around bg-gray-100 flex-wrap sm:flex-col">
+      <section className="rounded-lg shadow-lg mt-6 p-10 flex md:flex-row items-center justify-around bg-gray-100 flex-wrap sm:flex-col">
         <div className="h-52 w-52 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform hover:scale-75 transition duration-300">
