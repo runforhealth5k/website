@@ -32,7 +32,7 @@ export default function Home() {
                   </span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Clicking the registration button below will take you to a safe
+                  *Clicking the registration button below will take you to a safe
                   3rd party website.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -59,36 +59,38 @@ export default function Home() {
       <div className="space-y-24">
       <section className="space-y-14">
         <br />
-        <h2 className="text-center uppercase text-black underline text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
+        <div className="flex items-center justify-center h-screen">
+        <div className="bg-gray-100 rounded-lg border shadow-lg p-10">
+         <h2 className="mb-8 text-center uppercase text-black underline text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl">
           How it works:
         </h2>
-        <ol className=" space-y-3 list-decimal list-inside text-center text-lg text-gray-600 md:text-xl">
-          <li className="leading-loose">
+        <ol className="space-y-3 list-decimal list-inside text-center text-lg text-gray-600 md:text-xl">
+          <li className=" leading-loose font-bold">
             Register through Active.com by clicking the ‘Registration’ button
             above.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Check your inbox for a verification email confirming that you were
             successfully registered.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Download ‘Strava,’ an app that allows your phone to track the time
             and speed of your run.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Create an account using the same name and email that you used to
             register for Run for Health.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Keep an eye out for announcements and updates via email (this is how
             you’ll know when your race bib and commemorative mask will be coming
             in).
           </li>
-          <li className="leading-loose">
-            Run the race <span className="font-bold">(05/29/21)</span> anytime
+          <li className="leading-loose font-bold">
+            Run the race <span className="font-extrabold">(05/29/21)</span> anytime
             from dawn til dusk.
           </li>
-          <li className="leading-loose">
+          <li className="leading-loose font-bold">
             Submit your results from Strava on the day of the race to:
             <a
               href="mailto:runforhealth5k@gmail.com"
@@ -98,6 +100,8 @@ export default function Home() {
             </a>
           </li>
         </ol>
+        </div>
+        </div>
       </section>
       <br />
       <br />
@@ -105,7 +109,7 @@ export default function Home() {
         Thanks to our sponsors!
       </h3>
       </div>
-      <section className="mt-6 p-10 flex md:flex-row items-center justify-around bg-gray-100 flex-wrap sm:flex-col">
+      <section className="rounded-lg shadow-lg mt-6 p-10 flex md:flex-row items-center justify-around bg-gray-100 flex-wrap sm:flex-col">
         <div className="h-52 w-52 relative cursor-pointer mb-5">
           <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl"></div>
           <div className="absolute inset-0 transform hover:scale-75 transition duration-300">
