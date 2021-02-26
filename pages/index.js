@@ -31,16 +31,21 @@ export default function Home() {
                     virtual world!
                   </span>
                 </h1>
-                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  *Clicking the registration button below will take you to a safe
+                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-l lg:mx-0">
+                  *Clicking any button below will take you to a safe
                   3rd party website.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                  <div className="rounded-md shadow">
+                  <div className="flex justify-center lg:justify-start mt-6 ">
                     <a
                       href="https://endurancecui.active.com/event-reg/select-race?e=73465434"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-gray-100 bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
                       Registration
+                    </a>
+                    <a
+                      href="https://www.gofundme.com/run-for-health-5k/donate"
+                      className="pt-4 ml-7 w-full items-center justify-center px-8 py-3 border border-transparent text-base font-medium bg-yellow-300 text-white rounded-md hover:bg-gray-400 md:text-lg md:px-16">
+                     Donate 
                     </a>
                   </div>
                 </div>
